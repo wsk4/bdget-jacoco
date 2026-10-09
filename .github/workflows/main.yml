@@ -157,7 +157,6 @@ jobs:
             -Dsonar.organization=wsk4 \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
-            -Dsonar.token=${SONAR_TOKEN}
 
   # =========================
   # 4. BUILD FINAL
